@@ -15,32 +15,30 @@ DICTIONNAIRE DE DONNÉES :
 Variable Nom Description 
 
 UniqueID Identifiant pour les clients 
-loan_default Défaut de paiement du premier EMI à la date d'échéance 
-disbursed_amount Montant du prêt déboursé 
-asset_cost Coût de l'actif 
-ltv Loan to Value of the asset  (La loan to value ou LTV est un indicateur utilisé lors de l’octroi du prêt immobilier. Il consiste à faire un ratio entre le montant du crédit et la valeur d’achat du logement (hors droits de mutation et/ou d’acquisition). Plus ce ratio est élevé, plus le risque de l'emprunt est important.
-
+loan_default : Défaut de paiement du premier EMI à la date d'échéance 
+disbursed_amount : Montant du prêt déboursé 
+asset_cost : Coût de l'actif 
+ltv Loan to Value of the asset : (La loan to value ou LTV est un indicateur utilisé lors de l’octroi du prêt immobilier. Il consiste à faire un ratio entre le montant du crédit et la valeur d’achat du logement (hors droits de mutation et/ou d’acquisition). Plus ce ratio est élevé, plus le risque de l'emprunt est important.
 La LTV est un ratio d'endettement. Il se calcule en rapportant le montant d'un emprunt à la valeur du bien acquis grâce à cet emprunt et/ou de l'actif donné en garantie de l'emprunt.
-
 Il mesure ainsi, au moment n, le niveau d’endettement d’un emprunteur au regard de la valeur vénale de ses actifs immobiliers. Plus ce ratio est élevé, plus le risque de l'emprunt est important.
-branch_id Succursale où le prêt a été déboursé 
-supplier_id Concessionnaire du véhicule où le prêt a été déboursé
- manufacturer_id Fabricant du véhicule (Hero, Honda, TVS, etc.) 
-Current_pincode Code postal actuel du client Date.de.naissance Date de naissance du client 
-Employment.Type Type d'emploi du client (salarié/indépendant) 
-DisbursalDate Date du déboursement 
-State_ID État du déboursement 
-Employee_code_ID Employé de l'organisation qui a enregistré le déboursement. 
-MobileNo_Avl_Flag si le numéro de mobile a été partagé par le client, le drapeau est 1. 
-Aadhar_flag si l'aadhar a été partagé par le client alors marqué comme 1 
-PAN_flag si le pan a été partagé par le client puis marqué comme 1 
-VoterID_flag si l'électeur a été partagé par le client puis marqué comme 1 
-Driving_flag si le client a partagé son permis de conduire, le drapeau indique 1. 
-Passport_flag si le passeport a été partagé par le client, puis marqué comme 1. 
-PERFORM_CNS.SCORE Score du bureau 
-PERFORM_CNS.SCORE.DESCRIPTION Description du score du bureau 
-PRI.NO.OF.ACCTS nombre total de prêts contractés par le client au moment du décaissement Les comptes primaires sont ceux que le client a contractés pour son usage personnel
- PRI.ACTIVE.ACCTS nombre de prêts actifs contractés par le client au moment du décaissement PRI.OVERDUE.ACCTS nombre de comptes en défaut au moment du décaissement 
-PRI.CURRENT.BALANCE total du capital restant dû des prêts actifs au moment du déboursement. 
-PRI.SANCTIONED.AMOUNT Montant total qui a été sanctionné pour tous les prêts au moment du décaissement. 
-PRI.DISBURSED.AMOUNT montant total qui a été décaissé pour tous les prêts au moment du décaissement. 
+branch_id : Succursale où le prêt a été déboursé 
+supplier_id : Concessionnaire du véhicule où le prêt a été déboursé
+ manufacturer_id : Fabricant du véhicule (Hero, Honda, TVS, etc.) 
+Current_pincode : Code postal actuel du client Date.de.naissance Date de naissance du client 
+Employment.Type : Type d'emploi du client (salarié/indépendant) 
+DisbursalDate : Date du déboursement 
+State_ID : État du déboursement 
+Employee_code_ID : Employé de l'organisation qui a enregistré le déboursement. 
+MobileNo_Avl_Flag : si le numéro de mobile a été partagé par le client, le drapeau est 1. 
+Aadhar_flag  : si l'aadhar a été partagé par le client alors marqué comme 1 
+PAN_flag : si le pan a été partagé par le client puis marqué comme 1 
+VoterID_flag : si l'électeur a été partagé par le client puis marqué comme 1 
+Driving_flag : si le client a partagé son permis de conduire, le drapeau indique 1. 
+Passport_flag : si le passeport a été partagé par le client, puis marqué comme 1. 
+PERFORM_CNS.SCORE : Score du bureau 
+PERFORM_CNS.SCORE.DESCRIPTION : Description du score du bureau 
+PRI.NO.OF.ACCTS : nombre total de prêts contractés par le client au moment du décaissement Les comptes primaires sont ceux que le client a contractés pour son usage personnel
+ PRI.ACTIVE.ACCTS : nombre de prêts actifs contractés par le client au moment du décaissement PRI.OVERDUE.ACCTS nombre de comptes en défaut au moment du décaissement 
+PRI.CURRENT.BALANCE : total du capital restant dû des prêts actifs au moment du déboursement. 
+PRI.SANCTIONED.AMOUNT : Montant total qui a été sanctionné pour tous les prêts au moment du décaissement. 
+PRI.DISBURSED.AMOUNT : montant total qui a été décaissé pour tous les prêts au moment du décaissement. 
